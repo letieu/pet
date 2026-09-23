@@ -1,0 +1,66 @@
+{
+  "name": "sitepet",
+  "version": "1.0.0",
+  "description": "Add an adorable, Pokémon-style evolving interactive companion pet to your website in seconds! Grows with clicks, forms, scrolls, and petting.",
+  "main": "dist/sitepet.cjs",
+  "module": "dist/sitepet.js",
+  "types": "dist/index.d.ts",
+  "unpkg": "dist/sitepet.min.js",
+  "jsdelivr": "dist/sitepet.min.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/sitepet.js",
+      "require": "./dist/sitepet.cjs"
+    },
+    "./react": {
+      "types": "./dist/react/index.d.ts",
+      "import": "./dist/react/index.js",
+      "require": "./dist/react/index.cjs"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "pet",
+    "pokemon",
+    "gamification",
+    "widget",
+    "interactive",
+    "engagement",
+    "tamagotchi",
+    "website-pet",
+    "react-pet",
+    "virtual-pet"
+  ],
+  "author": "SitePet",
+  "license": "MIT",
+  "scripts": {
+    "build": "vite build && vite build --config vite.config.umd.ts && cp src/style.css dist/style.css 2>/dev/null || true",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7",
+    "vite-plugin-dts": "^4.5.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    }
+  }
+}
