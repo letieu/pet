@@ -408,7 +408,7 @@ export function renderPetSvg(
       // Emberly (Baby Fire Fox)
       bodySvg = `
         <!-- Flame Tail -->
-        <g class="pet-tail-anim" transform="origin: 30px 75px">
+        <g class="pet-tail-anim" style="transform-origin: 30px 75px;">
           <path d="M28,70 Q10,75 14,50 Q18,35 24,42 Q28,25 38,40 Q32,60 38,70 Z" fill="url(#fire-grad-1)"/>
           <path d="M25,65 Q18,65 20,52 Q24,45 28,50 Q32,58 32,68 Z" fill="#FFE082"/>
         </g>
@@ -497,7 +497,7 @@ export function renderPetSvg(
       // Sproutle (Baby Leaf Bud)
       bodySvg = `
         <!-- Sprout on head -->
-        <g class="pet-tail-anim" transform="origin: 56px 26px">
+        <g class="pet-tail-anim" style="transform-origin: 56px 26px;">
           <path d="M56,28 Q54,12 40,8 Q44,22 56,26 Z" fill="#8BC34A" stroke="#558B2F" stroke-width="1.2"/>
           <path d="M56,28 Q58,10 72,12 Q66,24 56,26 Z" fill="#AED581" stroke="#558B2F" stroke-width="1.2"/>
           <circle cx="56" cy="27" r="2.5" fill="#FF80AB"/>
@@ -661,7 +661,7 @@ export function renderPetSvg(
       // Zapplet (Spark Mouse)
       bodySvg = `
         <!-- Lightning Tail -->
-        <g class="pet-tail-anim" transform="origin: 30px 75px">
+        <g class="pet-tail-anim" style="transform-origin: 30px 75px;">
           <polygon points="28,70 12,60 22,50 8,36 28,42 22,54 32,62" fill="#FFD600" stroke="#FF6F00" stroke-width="1.5"/>
         </g>
         <!-- Big Ears -->
@@ -750,7 +750,7 @@ export function renderPetSvg(
       // Nebipup (Star Wisp Pup)
       bodySvg = `
         <!-- Orbiting Little Moon -->
-        <g class="pet-tail-anim" transform="origin: 56px 54px">
+        <g class="pet-tail-anim" style="transform-origin: 56px 54px;">
           <circle cx="16" cy="30" r="6" fill="#FFE082" stroke="#FFA000" stroke-width="1"/>
           <circle cx="14" cy="28" r="1.5" fill="#FFF"/>
         </g>

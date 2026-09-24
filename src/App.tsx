@@ -6,6 +6,7 @@ import { Playground } from './components/Playground';
 import { SpeciesShowcase } from './components/SpeciesShowcase';
 import { CustomizerStudio } from './components/CustomizerStudio';
 import { ExportHub } from './components/ExportHub';
+import { EmbedGenerator } from './components/EmbedGenerator';
 import { ValueProposition } from './components/ValueProposition';
 import { Footer } from './components/Footer';
 
